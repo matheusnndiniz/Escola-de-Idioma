@@ -1,0 +1,37 @@
+body {
+      background-color: lightgreen; 
+    }
+ .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#ff0000; 
+    padding: 15px 30px;
+    color: black;
+    flex-wrap: wrap;
+  }
+   .card {
+      background-color: salmon; 
+    }
+
+  .navbar-title {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+
+  .navbar-links a {
+    color: blue;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  .containerclass{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    color: salmon;
+  }
